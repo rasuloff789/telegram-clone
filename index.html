@@ -28,9 +28,9 @@
           <input class="form-control bg-light" type="search" required placeholder="Search..." spellcheck="false" autocomplete="off" name="search">
         </form>
       </div>
-      <ul class="list-group nav list-group-flush rounded-0 flex-grow-1 d-flex flex-column bg-white " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <li>
-          <a href="#" class="channel  nav-link  media list-group-item text-decoration-none d-flex align-items-center"  id="mayoq-tab" data-toggle="pill" href="#mayoq" role="tab" aria-controls="mayoq" aria-selected="true">
+      <ul class="list-group nav nav-pills list-group-flush rounded-0 flex-grow-1 d-flex flex-column bg-white " id="pills-tab" role="tablist">
+        <li class="nav-item w-100 overflow-hidden" role="presentation">
+          <a  class="channel  nav-link  media list-group-item text-decoration-none d-flex align-items-center"  id="mayoq-tab" data-toggle="pill" href="#mayoq" role="tab" aria-controls="home" aria-selected="true">
             <img src="https://picsum.photos/id/870/65" class="rounded-circle flex-shrink-1 mr-2" alt="rasm" width="65" height="65" srcset="https://picsum.photos/id/870/65 1x , https://picsum.photos/id/870/130 2x">
             
             <div class="d-flex flex-column flex-grow-1 overflow-hidden">
@@ -53,220 +53,530 @@
             
           </a>
         </li>
+        
+        <li class="nav-item w-100 overflow-hidden" role="presentation">
+          <a  class="channel  nav-link  media list-group-item text-decoration-none d-flex align-items-center overflow-hidden"  id="rasulismoilov-tab" data-toggle="pill" href="#rasulismoilov" role="tab" aria-controls="home" aria-selected="true">
+            <img src="https://picsum.photos/id/872/65" class="rounded-circle flex-shrink-1 mr-2" alt="rasm" width="65" height="65" srcset="https://picsum.photos/id/872/65 1x , https://picsum.photos/id/872/130 2x">
+            
+            <div class="d-flex flex-column flex-grow-1 overflow-hidden">
+              <div class="overflow-hidden d-flex w-100 align-items-center mb-2">
+                <h4 class="text-dark mb-0 h5 flex-grow-1 text-truncate">
+                  Rasul Ismoilov
+                </h4>
+                <span class="material-icons text-muted mx-2 d-none">volume_off</span>
+                <span class="material-icons done text-success">done_all</span>
+                <span class="text-black-50 ml-auto">Sun</span>
+              </div>
+              <div class="overflow-hidden d-flex w-100 align-items-center">
+                <p class="text-dark mb-0 h6 flex-grow-1 text-truncate">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime in ipsum. Doloribus, rerum dolore nisi velit ducimus fugit.
+                </p>
+                <span class="material-icons push-pin text-dark  rounded-circle p-1 border-dark border ml-2">push_pin</span>
+                <span class="badge badge-info badge-pill ml-2"></span>
+              </div>
+            </div>
+            
+          </a>
+        </li>
       </ul>
     </div>
     
     <div class="tab-content col-md-6 bg-dark vh-100" id="tabContent">
       
-      <div class="tab-pane show active fade vh-100 bg-white d-flex flex-column" id="mayoq" role="tabpanel" aria-labelledby="mayoq-tab">
+      <div class="tab-pane show  fade" id="mayoq" role="tabpanel" aria-labelledby="mayoq-tab">
         
-        <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="InfoModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content align-items-center d-flex flex-column">
-              <img src="https://picsum.photos/id/870/65" class="rounded-circle my-1" srcset="https://picsum.photos/id/870/65 1x , https://picsum.photos/id/870/130 2x" width="65" height="65" alt="rasm">
-              <h5 class="h6 text-dark  my-1 text-left">Mayoq videodarslar</h5>
-              <p class="text-secondary my-1 ">999 , 999 subscribers</p>
-              <div class="row w-100 justify-content-around my-2" aria-labelledby="dropdownMenuButton">
-                <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#">
-                  <span class="material-icons bg-info text-white p-2 rounded-circle ">report</span>
-                  <span class="text-info">Report</span>
-                </button>
-                <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#">
-                  <span class="material-icons bg-info text-white p-2 rounded-circle ">volume_off</span>
-                  <span class="text-info">Mute</span>
-                </button>
-                <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#">
-                  <span class="material-icons bg-info text-white p-2 rounded-circle ">reply</span>
-                  <span class="text-info">Share</span>
-                </button>
-                <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#"> 
-                  <span class="material-icons bg-info text-white p-2 rounded-circle ">exit_to_app</span>
-                  <span class="text-info">Leave channel</span>
-                </button>
-                
-                <div class="info-box d-flex flex-column w-100 px-4 bg-secondary py-2 mt-2 align-items-center" >
-                  <p class="overflow-hidden w-100 text-white">
-                    
-                    <span class="text-info">info</span> <br>
-                    
-                    ⚽️Futbol muxlislari uchun yaratilgan shaxsiy kanal!   <br>
-                    📰Yangiliklar <br>
-                    ⚽️Onlayn gollar <br>
-                    🎬Videolar <br>
-                    🎤Intervyular <br>
-                    🥅Anonslar <br>
-                    📺TV dasturlar         <br>
-                    Hamkor: Clickme         <br>
-                    Reklama uchun: @FTHDUZ         <br>
-                    Takliflar: @AhadNazarov <br>
-                  </p>
-                  
-                  <button class="bg-transparent border-0 w-100 text-left " type="button">
-                    <span class="text-info">share link</span> <br>
-                    <p class="mb-0 text-white"> @rasulismoilov</p>
+        <div class="d-flex flex-column bg-white vh-100">
+          <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="InfoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content align-items-center d-flex flex-column">
+                <img src="https://picsum.photos/id/870/65" class="rounded-circle my-1" srcset="https://picsum.photos/id/870/65 1x , https://picsum.photos/id/870/130 2x" width="65" height="65" alt="rasm">
+                <h5 class="h6 text-dark  my-1 text-left">Mayoq videodarslar</h5>
+                <p class="text-secondary my-1 ">999 , 999 subscribers</p>
+                <div class="row w-100 justify-content-around my-2" aria-labelledby="dropdownMenuButton">
+                  <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#">
+                    <span class="material-icons bg-info text-white p-2 rounded-circle ">report</span>
+                    <span class="text-info">Report</span>
+                  </button>
+                  <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#">
+                    <span class="material-icons bg-info text-white p-2 rounded-circle ">volume_off</span>
+                    <span class="text-info">Mute</span>
+                  </button>
+                  <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#">
+                    <span class="material-icons bg-info text-white p-2 rounded-circle ">reply</span>
+                    <span class="text-info">Share</span>
+                  </button>
+                  <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#"> 
+                    <span class="material-icons bg-info text-white p-2 rounded-circle ">exit_to_app</span>
+                    <span class="text-info">Leave channel</span>
                   </button>
                   
-                </div>
-                
-                <div class="box d-flex flex-column">
-                  <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Media</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Files</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Links</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <!-- <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Music</a> -->
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Voice</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Gifs</a>
-                    </li>
-                  </ul>
-                  <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active align-items-center justify-content-around w-100" id="home" role="tabpanel" aria-labelledby="home-tab">
-                      <img src="https://picsum.photos/id/15/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/25/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/35/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/45/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/55/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/65/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/75/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/85/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/95/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/104/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/115/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/125/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/135/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/145/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/155/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/165/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/175/200" alt="rasm" width="30%">
-                      <img src="https://picsum.photos/id/185/200" alt="rasm" width="30%">
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                  <div class="info-box d-flex flex-column w-100 px-4 bg-secondary py-2 mt-2 align-items-center" >
+                    <p class="overflow-hidden w-100 text-white">
+                      
+                      <span class="text-info">info</span> <br>
+                      
+                      ⚽️Futbol muxlislari uchun yaratilgan shaxsiy kanal!   <br>
+                      📰Yangiliklar <br>
+                      ⚽️Onlayn gollar <br>
+                      🎬Videolar <br>
+                      🎤Intervyular <br>
+                      🥅Anonslar <br>
+                      📺TV dasturlar         <br>
+                      Hamkor: Clickme         <br>
+                      Reklama uchun: @FTHDUZ         <br>
+                      Takliflar: @AhadNazarov <br>
+                    </p>
+                    
+                    <button class="bg-transparent border-0 w-100 text-left " type="button">
+                      <span class="text-info">share link</span> <br>
+                      <p class="mb-0 text-white"> @rasulismoilov</p>
+                    </button>
+                    
                   </div>
+                  
+                  <div class="box d-flex flex-column flex-grow-1 h-50">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Media</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Files</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Links</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <!-- <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Music</a> -->
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Voice</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Gifs</a>
+                      </li>
+                    </ul>
+                    <div class="tab-content flex-grow-1" id="myTabContent">
+                      <div class="tab-pane  fade show active flex-grow-1 " id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="bg-white d-flex flex-wrap  overflow-auto align-items-center justify-content-around min-vh-100">
+                          <img src="https://picsum.photos/id/15/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/25/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/35/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/45/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/55/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/65/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/75/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/85/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/95/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/104/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/115/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/125/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/135/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/145/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/155/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/165/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/175/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/185/200" alt="rasm" width="30%">
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class=" d-flex  flex-wrap flex-grow-1 overflow-auto align-items-center justify-content-around w-100 min-vh-100">
+                          ...
+                        </div>
+                      </div>
+                      <div class="tab-pane fade " id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="d-flex flex-wrap flex-grow-1 overflow-auto align-items-center justify-content-around w-100 min-vh-100">...</div>
+                      </div>
+                    </div>
+                  </div>
+                  
                 </div>
                 
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          <div class="top-with-search">
+            <div class="top bg-white d-flex align-items-center ">
+              
+              <button class="p-2 bg-white border-0 d-flex flex-grow-1 mr-0 align-items-center outline-0" data-toggle="modal" data-target="#infoModal">
+                <img src="https://picsum.photos/id/870/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/870/65 1x , https://picsum.photos/id/870/130 2x" width="35" height="35" alt="rasm">
+                <div class="box">
+                  <h5 class="h6 text-dark  mb-0 text-left">Mayoq videodarslar</h5>
+                  <p class="text-secondary mb-0 ">999 , 999 subscribers</p>
+                  
+                </div>
+              </button>
+              
+              <button class="search-btn btn p-2 rounded-circle btn-light text-center text-info mr-2 material-icons">search</button>
+              
+              <div class="dropdown">
+                <button class="commaButton d-flex btn btn-light align-items-center justify-content-center p-1 rounded-circle mr-1" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="comma rounded-circle bg-info mx-1"></span>
+                  <span class="comma rounded-circle bg-info mx-1"></span>            
+                  <span class="comma rounded-circle bg-info mx-1"></span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                  <button class="dropdown-item dropdown-Comma d-flex align-items-center"> 
+                    <span class="material-icons mr-2">edit</span>
+                    <span>Edit</span>
+                  </button>
+                  <button class="dropdown-item dropdown-Comma d-flex align-items-center">
+                    <span class="material-icons mr-2">info</span>
+                    <span>Info</span>
+                  </button>
+                  <button class="dropdown-item dropdown-Comma d-flex align-items-center">
+                    <span class="material-icons mr-2">volume_off</span>
+                    <span>Mute</span>
+                  </button>
+                  <button class="dropdown-item dropdown-Comma d-flex align-items-center">
+                    <span class="material-icons mr-2">archive</span>
+                    <span>Archive</span>
+                  </button>
+                  <button class="dropdown-item dropdown-Comma d-flex align-items-center"> 
+                    <span class="material-icons mr-2">delete</span>
+                    <span>Leave channel</span>
+                  </button>
+                </div>
               </div>
               
+              
             </div>
-          </div>
-        </div>
-        
-        
-        
-        <div class="top-with-search">
-          <div class="top bg-white d-flex align-items-center ">
             
-            <button class="p-2 bg-white border-0 d-flex flex-grow-1 mr-0 align-items-center outline-0" data-toggle="modal" data-target="#infoModal">
-              <img src="https://picsum.photos/id/870/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/870/65 1x , https://picsum.photos/id/870/130 2x" width="35" height="35" alt="rasm">
-              <div class="box">
-                <h5 class="h6 text-dark  mb-0 text-left">Mayoq videodarslar</h5>
-                <p class="text-secondary mb-0 ">999 , 999 subscribers</p>
+            <div class="search-box d-flex align-items-center w-100">
+              <button class="material-icons bg-white mx-1 border-0 p-2 outline-0 text-secondary" type="button">keyboard_arrow_down</button>
+              <button class="material-icons bg-white mx-1 border-0 p-2 outline-0 text-secondary" type="button">keyboard_arrow_up</button>
+              <form action="https://echo.htmlacademy.ru" class="flex-grow-1" method="GET">
+                <input type="search"  autocomplete="off" spellcheck="false" name="Search_in_chat" class="search-input form-control bg-light" placeholder="Search...">       
+              </form>
+              <button class="material-icons bg-white mx-1 border-0 p-2 outline-0 text-info" type="button">date_range</button>
+              <button type="button" class="close-btn material-icons bg-white mx-1 border-0 p-2 outline-0 text-info" data-dismiss="modal">highlight_off</button>
+            </div>
+            
+          </div>
+          
+          
+          <div class="content flex-grow-1 bg-light overflow-auto">
+            <ul class="list-unstyled w-100 d-flex flex-column mb-0 outline-0">
+              <li class="d-flex w-50 align-items-end mt-2">
+                <a class="p-2 border-0 text-decoration-none flex-shrink-0 d-flex  mr-0 align-items-center outline-0" data-toggle="modal" href="#infoModal"> 
+                  <img src="https://picsum.photos/id/870/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/870/65 1x , https://picsum.photos/id/870/130 2x" width="35" height="35" alt="rasm">
+                </a>
                 
-              </div>
-            </button>
-            
-            <button class="search-btn btn p-2 rounded-circle btn-light text-center text-info mr-2 material-icons">search</button>
-            
-            <div class="dropdown">
-              <button class="commaButton d-flex btn btn-light align-items-center justify-content-center p-1 rounded-circle mr-1" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="comma rounded-circle bg-info mx-1"></span>
-                <span class="comma rounded-circle bg-info mx-1"></span>            
-                <span class="comma rounded-circle bg-info mx-1"></span>
-              </button>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                <button class="dropdown-item dropdown-Comma d-flex align-items-center"> 
-                  <span class="material-icons mr-2">edit</span>
-                  <span>Edit</span>
-                </button>
-                <button class="dropdown-item dropdown-Comma d-flex align-items-center">
-                  <span class="material-icons mr-2">info</span>
-                  <span>Info</span>
-                </button>
-                <button class="dropdown-item dropdown-Comma d-flex align-items-center">
-                  <span class="material-icons mr-2">volume_off</span>
-                  <span>Mute</span>
-                </button>
-                <button class="dropdown-item dropdown-Comma d-flex align-items-center">
-                  <span class="material-icons mr-2">archive</span>
-                  <span>Archive</span>
-                </button>
-                <button class="dropdown-item dropdown-Comma d-flex align-items-center"> 
-                  <span class="material-icons mr-2">delete</span>
-                  <span>Leave channel</span>
-                </button>
-              </div>
-            </div>
-            
-            
+                <div class="bg-white p-3 rounded">
+                  <p class="text-secondary h5 mb-0 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae eum aperiam autem modi odit corrupti suscipit vitae perspiciatis architecto voluptates illo, provident necessitatibus ullam non optio fugit! Distinctio veniam quasi reprehenderit deleniti, expedita consequatur earum, eos officiis consequuntur voluptate ipsa dolorem, accusantium non at ex vero aut mollitia esse itaque.</p>
+                  
+                </div>
+              </li>
+              
+              <li class="d-flex w-50 align-items-end mt-2">
+                <a class="p-2 border-0 text-decoration-none flex-shrink-0 d-flex  mr-0 align-items-center outline-0" data-toggle="modal" href="#infoModal"> 
+                  <img src="https://picsum.photos/id/870/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/870/65 1x , https://picsum.photos/id/870/130 2x" width="35" height="35" alt="rasm">
+                </a>
+                
+                <div class="bg-white p-3 rounded">
+                  <p class="text-secondary h5 mb-0 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium magni incidunt error at reiciendis provident est minima, tenetur assumenda, unde architecto quibusdam vero. Accusantium culpa facilis aperiam expedita dolores quibusdam placeat odio sapiente, praesentium vitae voluptates omnis, hic nihil porro officiis. Consequatur cupiditate at officiis?</p>
+                  
+                </div>
+              </li>
+              
+              <li class="d-flex w-50 align-items-end mt-2">
+                <a class="p-2 border-0 text-decoration-none flex-shrink-0 d-flex  mr-0 align-items-center outline-0" data-toggle="modal" href="#infoModal"> 
+                  <img src="https://picsum.photos/id/870/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/870/65 1x , https://picsum.photos/id/870/130 2x" width="35" height="35" alt="rasm">
+                </a>
+                
+                <div class="bg-white p-3 rounded">
+                  <p class="text-secondary h5 mb-0 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam provident aliquid molestiae voluptates quam et asperiores dolore debitis ab cum, minus repudiandae quis?</p>
+                  
+                </div>
+              </li>
+              
+              <li class="d-flex w-50 align-items-end mt-2">
+                <a class="p-2 border-0 text-decoration-none flex-shrink-0 d-flex  mr-0 align-items-center outline-0" data-toggle="modal" href="#infoModal"> 
+                  <img src="https://picsum.photos/id/870/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/870/65 1x , https://picsum.photos/id/870/130 2x" width="35" height="35" alt="rasm">
+                </a>
+                
+                <div class="bg-white p-3 rounded">
+                  <p class="text-secondary h5 mb-0 ">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Снова деревни взобравшись большого о домах рекламных, щеке свой залетают, диких они жизни вскоре выйти от всех предупреждал грамматики назад знаках.</p>
+                  
+                </div>
+              </li>
+              
+            </ul>
           </div>
           
-          <div class="search-box d-flex align-items-center w-100">
-            <button class="material-icons bg-white mx-1 border-0 p-2 outline-0 text-secondary" type="button">keyboard_arrow_down</button>
-            <button class="material-icons bg-white mx-1 border-0 p-2 outline-0 text-secondary" type="button">keyboard_arrow_up</button>
-            <form action="https://echo.htmlacademy.ru" class="flex-grow-1" method="GET">
-              <input type="search"  autocomplete="off" spellcheck="false" name="Search_in_chat" class="search-input form-control bg-light" placeholder="Search...">       
-            </form>
-            <button class="material-icons bg-white mx-1 border-0 p-2 outline-0 text-info" type="button">date_range</button>
-            <button type="button" class="close-btn material-icons bg-white mx-1 border-0 p-2 outline-0 text-info" data-dismiss="modal">highlight_off</button>
-          </div>
-          
+          <button class="btn text-info bg-white" type="button">Mute</button>
           
         </div>
         
         
       </div>
       
+      <div class="tab-pane show  fade" id="rasulismoilov" role="tabpanel" aria-labelledby="rasulismoilov-tab">
+        
+        <div class="d-flex flex-column bg-white vh-100">
+          <div class="modal fade" id="infoRasulModal" tabindex="-1" aria-labelledby="InfoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content align-items-center d-flex flex-column">
+                <img src="https://picsum.photos/id/872/65" class="rounded-circle my-1" srcset="https://picsum.photos/id/872/65 1x , https://picsum.photos/id/872/130 2x" width="65" height="65" alt="rasm">
+                <h5 class="h6 text-dark  my-1 text-left">Rasul Ismoilov</h5>
+                <p class="text-secondary my-1 ">undefined subscribers</p>
+                <div class="row w-100 justify-content-around my-2" aria-labelledby="dropdownMenuButton">
+                  <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#">
+                    <span class="material-icons bg-info text-white p-2 rounded-circle ">report</span>
+                    <span class="text-info">Report</span>
+                  </button>
+                  <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#">
+                    <span class="material-icons bg-info text-white p-2 rounded-circle ">volume_off</span>
+                    <span class="text-info">Mute</span>
+                  </button>
+                  <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 justify-content-center text-black-50 align-items-center" href="#">
+                    <span class="material-icons bg-info text-white p-2 rounded-circle ">reply</span>
+                    <span class="text-info">Share</span>
+                  </button>
+                  <button class="d-flex bg-white border-0 outline-0 flex-column mx-4 cursor-none justify-content-center text-black-50  align-items-center" href="#"> 
+                    <span class="material-icons  bg-info text-white p-2 rounded-circle ">exit_to_app</span>
+                    <span class="text-info">Leave channel</span>
+                  </button>
+                  
+                  <div class="info-box d-flex flex-column w-100 px-4 bg-secondary py-2 mt-2 align-items-center" >
+                    <p class="overflow-hidden w-100 text-white">
+                      
+                      <span class="text-info">info</span> <br>
+                      
+                      nocomment :)
+                    </p>
+                    
+                    <button class="bg-transparent border-0 w-100 text-left " type="button">
+                      <span class="text-info">share link</span> <br>
+                      <p class="mb-0 text-white"> @rasulismoilov</p>
+                    </button>
+                    
+                  </div>
+                  
+                  <div class="box d-flex flex-column flex-grow-1 h-50">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#media" role="tab" aria-controls="home" aria-selected="true">Media</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#filesRasul" role="tab" aria-controls="profile" aria-selected="false">Files</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#linkRasul" role="tab" aria-controls="contact" aria-selected="false">Links</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#voiceRasul" role="tab" aria-controls="profile" aria-selected="false">Voice</a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#gifRasul" role="tab" aria-controls="contact" aria-selected="false">Gifs</a>
+                      </li>
+                    </ul>
+                    <div class="tab-content flex-grow-1" id="myTabContent">
+                      <div class="tab-pane  fade show active flex-grow-1 " id="media" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="bg-white d-flex flex-wrap  overflow-auto align-items-center justify-content-around min-vh-100">
+                          <img src="https://picsum.photos/id/15/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/25/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/35/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/45/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/55/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/65/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/75/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/85/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/95/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/104/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/115/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/125/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/135/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/145/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/155/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/165/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/175/200" alt="rasm" width="30%">
+                          <img src="https://picsum.photos/id/185/200" alt="rasm" width="30%">
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="filesRasul" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class=" d-flex  flex-wrap flex-grow-1 overflow-auto align-items-center justify-content-around w-100 min-vh-100">
+                          ...
+                        </div>
+                      </div>
+                      <div class="tab-pane fade " id="linkRasul" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="d-flex flex-wrap flex-grow-1 overflow-auto align-items-center justify-content-around w-100 min-vh-100">...</div>
+                      </div>
+                      <div class="tab-pane fade" id="voiceRasul" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class=" d-flex  flex-wrap flex-grow-1 overflow-auto align-items-center justify-content-around w-100 min-vh-100">
+                          ...
+                        </div>
+                      </div>
+                      <div class="tab-pane fade " id="gifRasul" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="d-flex flex-wrap flex-grow-1 overflow-auto align-items-center justify-content-around w-100 min-vh-100">...</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          <div class="top-with-search">
+            <div class="top bg-white d-flex align-items-center ">
+              
+              <button class="p-2 bg-white border-0 d-flex flex-grow-1 mr-0 align-items-center outline-0" data-toggle="modal" data-target="#infoRasulModal">
+                <img src="https://picsum.photos/id/872/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/872/65 1x , https://picsum.photos/id/872/130 2x" width="35" height="35" alt="rasm">
+                <div class="box">
+                  <h5 class="h6 text-dark  mb-0 text-left">Rasul Ismoilov</h5>
+                  <p class="text-secondary mb-0 ">undefined subscribers</p>
+                  
+                </div>
+              </button>
+              
+              <button class="search-btn btn p-2 rounded-circle btn-light text-center text-info mr-2 material-icons">search</button>
+              
+              <div class="dropdown">
+                <button class="commaButton d-flex btn btn-light align-items-center justify-content-center p-1 rounded-circle mr-1" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="comma rounded-circle bg-info mx-1"></span>
+                  <span class="comma rounded-circle bg-info mx-1"></span>            
+                  <span class="comma rounded-circle bg-info mx-1"></span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                  <button class="dropdown-item dropdown-Comma d-flex align-items-center"> 
+                    <span class="material-icons mr-2">edit</span>
+                    <span>Edit</span>
+                  </button>
+                  <button class="dropdown-item dropdown-Comma d-flex align-items-center">
+                    <span class="material-icons mr-2">info</span>
+                    <span>Info</span>
+                  </button>
+                  <button class="dropdown-item dropdown-Comma d-flex align-items-center">
+                    <span class="material-icons mr-2">volume_off</span>
+                    <span>Mute</span>
+                  </button>
+                  <button class="dropdown-item dropdown-Comma d-flex align-items-center">
+                    <span class="material-icons mr-2">archive</span>
+                    <span>Archive</span>
+                  </button>
+                  <button class="dropdown-item dropdown-Comma d-flex align-items-center"> 
+                    <span class="material-icons mr-2">delete</span>
+                    <span>Leave channel</span>
+                  </button>
+                </div>
+              </div>
+              
+              
+            </div>
+            
+            <div class="search-box d-flex align-items-center w-100">
+              <button class="material-icons bg-white mx-1 border-0 p-2 outline-0 text-secondary" type="button">keyboard_arrow_down</button>
+              <button class="material-icons bg-white mx-1 border-0 p-2 outline-0 text-secondary" type="button">keyboard_arrow_up</button>
+              <form action="https://echo.htmlacademy.ru" class="flex-grow-1" method="GET">
+                <input type="search"  autocomplete="off" spellcheck="false" name="Search_in_chat" class="search-input form-control bg-light" placeholder="Search...">       
+              </form>
+              <button class="material-icons bg-white mx-1 border-0 p-2 outline-0 text-info" type="button">date_range</button>
+              <button type="button" class="close-btn material-icons bg-white mx-1 border-0 p-2 outline-0 text-info" data-dismiss="modal">highlight_off</button>
+            </div>
+            
+          </div>
+          
+          
+          <div class="content flex-grow-1 bg-light overflow-auto">
+            <ul class="list-unstyled w-100 d-flex flex-column mb-0 outline-0">
+              <li class="d-flex w-50 align-items-end mt-2">
+                <a class="p-2 border-0 text-decoration-none flex-shrink-0 d-flex  mr-0 align-items-center outline-0" data-toggle="modal" href="#infoRasulModal"> 
+                  <img src="https://picsum.photos/id/872/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/872/65 1x , https://picsum.photos/id/872/130 2x" width="35" height="35" alt="rasm">
+                </a>
+                
+                <div class="bg-white p-3 rounded">
+                  <p class="text-secondary h5 mb-0 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae eum aperiam autem modi odit corrupti suscipit vitae perspiciatis architecto voluptates illo, provident necessitatibus ullam non optio fugit! Distinctio veniam quasi reprehenderit deleniti, expedita consequatur earum, eos officiis consequuntur voluptate ipsa dolorem, accusantium non at ex vero aut mollitia esse itaque.</p>
+                  
+                </div>
+              </li>
+              
+              <li class="d-flex w-50 align-items-end mt-2">
+                <a class="p-2 border-0 text-decoration-none flex-shrink-0 d-flex  mr-0 align-items-center outline-0" data-toggle="modal" href="#infoRasulModal"> 
+                  <img src="https://picsum.photos/id/872/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/872/65 1x , https://picsum.photos/id/872/130 2x" width="35" height="35" alt="rasm">
+                </a>
+                
+                <div class="bg-white p-3 rounded">
+                  <p class="text-secondary h5 mb-0 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium magni incidunt error at reiciendis provident est minima, tenetur assumenda, unde architecto quibusdam vero. Accusantium culpa facilis aperiam expedita dolores quibusdam placeat odio sapiente, praesentium vitae voluptates omnis, hic nihil porro officiis. Consequatur cupiditate at officiis?</p>
+                  
+                </div>
+              </li>
+              
+              <li class="d-flex w-50 align-items-end mt-2">
+                <a class="p-2 border-0 text-decoration-none flex-shrink-0 d-flex  mr-0 align-items-center outline-0" data-toggle="modal" href="#infoRasulModal"> 
+                  <img src="https://picsum.photos/id/872/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/872/65 1x , https://picsum.photos/id/872/130 2x" width="35" height="35" alt="rasm">
+                </a>
+                
+                <div class="bg-white p-3 rounded">
+                  <p class="text-secondary h5 mb-0 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam provident aliquid molestiae voluptates quam et asperiores dolore debitis ab cum, minus repudiandae quis?</p>
+                  
+                </div>
+              </li>
+              
+              <li class="d-flex w-50 align-items-end mt-2">
+                <a class="p-2 border-0 text-decoration-none flex-shrink-0 d-flex  mr-0 align-items-center outline-0" data-toggle="modal" href="#infoRasulModal"> 
+                  <img src="https://picsum.photos/id/872/65" class="rounded-circle mr-2" srcset="https://picsum.photos/id/872/65 1x , https://picsum.photos/id/872/130 2x" width="35" height="35" alt="rasm">
+                </a>
+                
+                <div class="bg-white p-3 rounded">
+                  <p class="text-secondary h5 mb-0 ">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Снова деревни взобравшись большого о домах рекламных, щеке свой залетают, диких они жизни вскоре выйти от всех предупреждал грамматики назад знаках.</p>
+                  
+                </div>
+              </li>
+              
+            </ul>
+          </div>
+          
+          <button class="btn text-info bg-white" type="button">Mute</button>
+          
+        </div>
+        
+        
+      </div>
     </div>
     <div class="col-md-3 bg-info vh-100"></div>
   </div>
   <script>
-    var searchBtn = document.querySelector('.search-btn');
-    console.log(searchBtn);
-    var searchBox = document.querySelector('.search-box');
+    var searchBtns = document.querySelectorAll('.search-btn');
+    var searchBox = document.querySelectorAll('.search-box');
+    var closeSearchs = document.querySelectorAll('.close-btn')
     
-    var closeSearch = document.querySelector('.close-btn')
+    var searchInput = document.querySelectorAll('.search-input');
     
-    var searchInput = document.querySelector('.search-input');
+    searchBtns.forEach(function( searchBtn , index){
+      searchBtn.addEventListener('click' ,function(){
+        searchBox[index].classList.toggle('open-search');
+        searchInput[index].value = '';
+      })});
+      
+      closeSearchs.forEach(function( closeSearch , index){
+        closeSearch.addEventListener('click' ,function(){
+          searchBox[index].classList.remove('open-search');
+          searchInput[index].value = '';
+        })});
+      </script>
+      <script>
+        // navigator.vibrate(20);
+        // alert('Teshaboy Karpareyshnga xush kelibsiz :) \nBazi bir savollarni so\'raymiz'); 
+        // var name = prompt('Ismingiz ?'); 
+        // var surname = prompt('Familyangiz ?');
+        // var age = prompt('Yosh ?');
+        // var job = prompt('Kasbingiz ?');
+        // var telegram = prompt('Telegram useringiz :))');
+        // alert('Bizni tanlaganingiz uchun rahmat :))' + '\nIsm : ' +  name + '\nFamilya : ' + surname + '\nYosh : ' + age + ' yosh' + '\nKasb : ' + job + '\nTelegram profilga link : ' + telegram ); 
+        // console.log( 'Yangi mijoz\nIsm : ' +  name + '\nFamilya : ' + surname + '\nYosh : ' + age + ' yosh' + '\nKasb : ' + job + '\nTelegram profilga link : ' + telegram );
+      </script>
+      <script src="js/jquery-3.5.1.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/scripts.js"></script>
+      
+    </body>
+    </html>
     
     
-    console.log(searchBox);
-    searchBtn.addEventListener('click' ,function(){
-      searchBox.classList.toggle('open-search');
-      searchInput.value = '';
-    }
-    )
-    closeSearch.addEventListener('click' ,function(){
-      searchBox.classList.remove('open-search');
-      searchInput.value = '';
-    }
-    )
-  </script>
-  <script>
-    // navigator.vibrate(20);
-    // alert('Teshaboy Karpareyshnga xush kelibsiz :) \nBazi bir savollarni so\'raymiz'); 
-    // var name = prompt('Ismingiz ?'); 
-    // var surname = prompt('Familyangiz ?');
-    // var age = prompt('Yosh ?');
-    // var job = prompt('Kasbingiz ?');
-    // var telegram = prompt('Telegram useringiz :))');
-    // alert('Bizni tanlaganingiz uchun rahmat :))' + '\nIsm : ' +  name + '\nFamilya : ' + surname + '\nYosh : ' + age + ' yosh' + '\nKasb : ' + job + '\nTelegram profilga link : ' + telegram ); 
-    // console.log( 'Yangi mijoz\nIsm : ' +  name + '\nFamilya : ' + surname + '\nYosh : ' + age + ' yosh' + '\nKasb : ' + job + '\nTelegram profilga link : ' + telegram );
-  </script>
-  <script src="js/jquery-3.5.1.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/scripts.js"></script>
-  
-</body>
-</html>
-
-
+    

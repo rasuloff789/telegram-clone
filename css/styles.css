@@ -76,5 +76,15 @@ h1 {
 }
 
 .open-search{
-  transform: translateY(5px);
+  padding: 3px;
+  transform: translateY(0);
+}
+
+.list-group-item.active  * {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.cursor-none{
+cursor: not-allowed !important;
 }
